@@ -1,5 +1,25 @@
 # Version History
-
+v4.1.0
+ 1. New native SQLite libraries for Android. Dropping support for armeabi.
+ 
+v4.0.0
+ 1. RN 0.60 compatibility (https://github.com/andpor/react-native-sqlite-storage/pull/361)
+ 
+v3.3.10
+ 1. Fix package org.pgsqlite not found error for RN 0.58.4 (https://github.com/andpor/react-native-sqlite-storage/pull/324)
+ 
+v3.3.9
+ 1. Gradle upgrade to 3.1.4 and addition of google repo (https://github.com/andpor/react-native-sqlite-storage/issues/294)
+ 
+v3.3.8
+ 1. UWP implementation for SqliteStorage (https://github.com/andpor/react-native-sqlite-storage/pull/302)
+ 2. Fix the window is not defined (https://github.com/andpor/react-native-sqlite-storage/pull/295)
+ 
+v3.3.7
+ 1. Remove rnpm-postlink (#292)
+ 2. Use correct parameters for SQLite.openDatabase (#291)
+ 3. Pulling SDK versions from root project (#287) - Android only
+ 
 v3.3.6
  1. Fix INTEGER column value overflow.
  
